@@ -25,22 +25,25 @@ h2 {
 				of Roboto</h3>
 		</footer> */
 
-p {
+section {
   width: 50%;
   height: 200px;
   background: gray;
-  color: white;
   border: black;
 }
-
-footer {
-  background: black;
-  border: lightgreen;
-  font: 200px white Roboto;
-
+p {
+  color: white;
 }
-h3 {
+
+/* footer {
   background: black;
   border: lightgreen;
   font: 20px white Roboto;
+
+} */
+h3 {
+  background: black;
+  border: rgb(11, 168, 11);
+  font: 20px white Roboto;
+  color: white;
 }

@@ -8,9 +8,12 @@ html {
 h1 {
   color: white;
   font-style: italic;
+  text-align: center;
 }
 
-
+#information {
+  text-align: center;
+}
 
 img {
   border: 0px;

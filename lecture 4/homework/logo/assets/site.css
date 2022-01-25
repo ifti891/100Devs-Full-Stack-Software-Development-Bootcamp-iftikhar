@@ -1,19 +1,11 @@
-/* 
-html {
-  /* background-color: rgb(235, 236, 236);
-  border: 5px solid green; */
-  /* justify-content: justify;
-  
-  width: 600px; */
-/* } */ 
 
-:root {
+/* :root {
   margin: auto;
   background-color: rgb(227, 237, 240);
   width: 700px;
   /* height: 605px; */
   
-}
+} */
 
 
 body {
@@ -21,10 +13,19 @@ body {
   border: 5px solid green;
   margin: 1.5rem;
   text-align: justify;
+  color: white;
   background-color: rgb(120, 206, 233);
-  height: 100%;
-  padding: 35px;
+  height: auto;
+  width: 600px;
+  padding: 50px;
+box-sizing: border-box;
 
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -51,15 +52,16 @@ img {
 }
 
 ul {
+  color: lightgreen;
   text-align: center;
   font-size: larger;
   font-weight: bolder;
 
-
 }
 
-ul li {
+ul > li {
  display: inline;
  font-weight: 900px;
+ color: lightgreen;
 
 }

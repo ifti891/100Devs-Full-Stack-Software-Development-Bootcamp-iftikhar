@@ -29,14 +29,36 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header, footer {
+     height: 100px;
+     width: 100%;
+     background: rgb(230, 245, 99);
+     border: 2px solid lightcoral;
+     clear: both;
+
 
 }
 
-footer {
+/* footer {
 
-}
+} */
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+section{
+     height: 700px;
+     width: 20%;
+     float: left;
+     background-color: rgb(105, 175, 152);
+     border: 2px solid rgb(39, 218, 98);
+     
+}
+
+.bigsection {
+     width: 40%;
+     height: 700px;
+     background-color: rgb(79, 79, 167);
+     border: 2px solid rgb(192, 70, 70);
+
+}

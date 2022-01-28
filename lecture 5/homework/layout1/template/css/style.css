@@ -30,33 +30,13 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-height: 100px;
-width: 100%;
-border: 3px solid red;
-clear: both;
+
 }
 
 footer {
-     height: 100px;
-     width: 100%;
-     border: 3px solid red;
-     clear: both;
+
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-section{
-     height: 300px;
-     width: 33.33%;
-     border: 3px solid green;
-     float: left;
-}
-
-.bigbottom{
-     
-     width: 50%;
-     border: 3px solid orangered;
-
-
-}

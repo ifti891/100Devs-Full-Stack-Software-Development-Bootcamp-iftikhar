@@ -29,34 +29,26 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-height: 100px;
-width: 100%;
-border: 3px solid red;
-clear: both;
-}
-
-footer {
+header, footer {
      height: 100px;
-     width: 100%;
-     border: 3px solid red;
+     border: 2px solid black;
      clear: both;
+}
+section{
+     height: 300px;
+     width: 33.3333%;
+     float: left;
+     border: 2px solid black;
+}
+.bigBottom{
+     width: 50%;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-section{
-     height: 300px;
-     width: 33.33%;
-     border: 3px solid green;
-     float: left;
-}
-
-.bigbottom{
-     
-     width: 50%;
-     border: 3px solid orangered;
-
-
-}
+@media screen and (max-width: 800px) {
+     section {
+         background: blue;
+     }
+ }

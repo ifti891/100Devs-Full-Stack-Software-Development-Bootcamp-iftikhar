@@ -16,7 +16,7 @@ article h2{
 
 article h2 + h2 {
   color: blue;
-  font: large;
+  font: larger;
 }
 /* Please make only bob and pizza green */
 ul + ul a{

@@ -3,12 +3,12 @@ html {
   margin: auto;
   /* background-color: rgb(227, 237, 240); */
   width: 700px;
-  padding: auto;
-  display: flex center;
-  -webkit-box-sizing: border-box;
+  /* padding: auto; */
+  /* display: grid center; */
+  /* -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
     box-sizing: border-box;
-   /* height: 605px;  */
+   height: 605px;  */
   
 } 
 
@@ -30,8 +30,8 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: column;
+  /* display: ; */
+  /* flex-direction: column; */
   align-items: center;
 }
 

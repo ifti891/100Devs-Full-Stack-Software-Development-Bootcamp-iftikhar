@@ -8,9 +8,9 @@ h1 {
 /* Please make the h2 25px, with padding on top/bottom, a thick gold border, and margin on the top/bottom */
 h2{
   font-size: 25px;
-  padding: 50px 0 50px 0;
+  padding: 50px 0;
   border: 20px solid purple;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
   /* width: 400px; */
 }
 
@@ -26,6 +26,6 @@ span{
 section{
   width: 25%;
   height: 200px;
-  margin: 0%;
+  margin: 0 auto;
   border: 5px solid green;
 }

@@ -16,6 +16,7 @@
 }
 /* Please select "Let's get down to business..." with the highest level of specificity possible */
 
-.passTheRemote turtles{
+#chunkyMilk .passTheRemoteturtles {
   color: green;
+  /* background: red; */
 }

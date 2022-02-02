@@ -9,6 +9,8 @@
 
 ## Projects:
 
+[Link to Project folders](https://github.com/ifti891/100Devs-iftikhar/tree/main/Projects)
+
 
 ### Contact Me:
 

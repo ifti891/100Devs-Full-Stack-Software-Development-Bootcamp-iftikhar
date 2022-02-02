@@ -9,7 +9,7 @@
 
 ## Projects:
 
-[Link to Projects directories](https://github.com/ifti891/100Devs-iftikhar/tree/main/Projects)
+[Link to Projects directory](https://github.com/ifti891/100Devs-iftikhar/tree/main/Projects)
 
 
 

@@ -29,9 +29,20 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-
+header, footer{
+     height: 100px;
+     border: 3px solid red;
+}
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+section{
+     height: 200px;
+     border: 3px solid red;
+     flex: 1;
+}
+main, .bottom{
+     display: flex;
+}

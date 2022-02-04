@@ -33,12 +33,12 @@ header, footer {
       height: 100px;
       color: rgb(5, 19, 19);
       font-size: 35px;
-      border: 3px solid rgb(158, 12, 151);
+      border: 3px solid rgb(150, 9, 143);
       clear: both;
 }
 
 section{
-  height: 200px;
+  height: 300px;
   width: 20%;
   font-size: 30px;
   color: rgb(4, 27, 27);

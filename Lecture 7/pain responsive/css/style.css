@@ -29,14 +29,42 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
-}
-
-footer {
-
+header, footer {
+     padding: 20px;
+     height: 100px;
+     width: 100%;
+     border: 3px solid red;
+     background: lightblue;
+     clear: both;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+section{
+     height: 300px;
+     width: 33.33%;
+     border: 3px solid purple;
+     background: lightgreen;
+     float: left;
+}
+
+@media screen and (min-width:700px) {
+     section{
+          background: rgb(252, 148, 148);
+          padding: 40px;
+     }
+}
+
+@media (min-width: 396px) and (max-width: 600px) {
+     .mobilefirst{
+          background: purple;
+          border: 3px solid red;
+          border-radius: 15%;
+     }
+     
+}
+
+@media (min) {
+     
+}

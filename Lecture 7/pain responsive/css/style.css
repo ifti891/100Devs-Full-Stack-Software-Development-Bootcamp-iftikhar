@@ -56,11 +56,15 @@ section{
      }
 }
 
-@media (min-width: 396px) and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 600px) {
      .mobilefirst{
           background: purple;
           border: 3px solid red;
           border-radius: 15%;
+          width: 100%;
+     }
+     .removeformobilefirst{
+          display: none;
      }
      
 }

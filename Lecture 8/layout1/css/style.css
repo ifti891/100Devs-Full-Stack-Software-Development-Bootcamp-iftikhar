@@ -68,11 +68,16 @@ nav form input{
   margin-top: 14px;
 }
 
+body{
+  position: relative;
+}
+
 main + section > section{
   width: 33.33%;
   float: left;
   position: relative;
   height: 35px;
+  /* text-align: center; */
 }
 
 
@@ -80,6 +85,8 @@ main > section{
   width: 50%;
   height: 500px;
   float: left;
+  /* position: left; */
+  /* text-align: center; */
 }
 
 main section + section section{
@@ -88,4 +95,17 @@ main section + section section{
   float: left;
   display: block;
   border: 1px solid black;
+  text-decoration: none;
+  color: red;
+  
+}
+
+/* main section + section > section {
+  position: absolute;
+  top: 2px;
+} */
+
+.foursmallsections h3{
+    color: blue;
+    position: bottom;
 }

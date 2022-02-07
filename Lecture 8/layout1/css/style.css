@@ -21,22 +21,58 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
 
-}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
+  height: 55px;
 
+  background: black;
+  color: white;
 }
 
-footer {
-
+nav *{
+  float: left;
+  width: 10%;
+  color: white;
+  display: block;
 }
 
+nav ul{
+  width: 50%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+nav form input{
+  width: 100%;
+}
+
+main + section > section{
+  width: 33.33%;
+  float: left;
+}
+
+
+main > section{
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+main > h2{
+  color: rgb(173, 169, 169);
+}
+main{
+  text-align: justify;
+}
+main section + section section{
+  width: 45%;
+  height: 250px;
+  float: left;
+  display: block;
+  border: 1px solid black;
+}

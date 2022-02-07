@@ -29,7 +29,6 @@
 /*******************************************/
 header {
   height: 55px;
-
   background: black;
   color: white;
 }
@@ -41,6 +40,23 @@ nav *{
   display: block;
 }
 
+nav a{
+  text-decoration: none;
+}
+nav a:first-child {
+  color: white;
+  font-size: 40px;
+  /* text-decoration: none; */
+  display: block;
+  /* background: white; */
+  margin-top: 5px;
+}
+
+nav a + a {
+  color: yellow;
+  margin-top: 17px;
+}
+
 nav ul{
   width: 50%;
 }
@@ -49,11 +65,14 @@ nav ul{
 /*******************************************/
 nav form input{
   width: 100%;
+  margin-top: 14px;
 }
 
 main + section > section{
   width: 33.33%;
   float: left;
+  position: relative;
+  height: 35px;
 }
 
 
@@ -63,12 +82,6 @@ main > section{
   float: left;
 }
 
-main > h2{
-  color: rgb(173, 169, 169);
-}
-main{
-  text-align: justify;
-}
 main section + section section{
   width: 45%;
   height: 250px;

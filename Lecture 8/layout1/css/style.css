@@ -39,6 +39,14 @@ nav *{
   color: white;
   display: block;
 }
+nav ul{
+  width: 50%;
+}
+
+nav form input{
+  width: 100%;
+  margin-top: 14px;
+}
 
 nav a{
   text-decoration: none;
@@ -57,16 +65,11 @@ nav a + a {
   margin-top: 17px;
 }
 
-nav ul{
-  width: 50%;
-}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-nav form input{
-  width: 100%;
-  margin-top: 14px;
-}
+
 
 body{
   position: relative;

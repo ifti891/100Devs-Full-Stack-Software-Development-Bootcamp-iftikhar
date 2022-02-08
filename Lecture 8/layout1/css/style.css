@@ -98,7 +98,7 @@ main section + section section{
   float: left;
   display: block;
   border: 1px solid black;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: red;
   
 }

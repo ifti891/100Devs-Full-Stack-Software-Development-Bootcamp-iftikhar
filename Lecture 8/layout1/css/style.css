@@ -93,7 +93,7 @@ main > section{
 }
 
 main section + section section{
-  width: 45%;
+  width: 50%;
   height: 250px;
   float: left;
   display: block;

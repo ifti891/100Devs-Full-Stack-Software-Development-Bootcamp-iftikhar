@@ -22,6 +22,8 @@
 /*******************************************/
 
 body {
+     width: 100%;
+     
 
 }
 
@@ -30,13 +32,81 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+     background-color: rgb(125, 201, 158);
+     height: 100px;
+     margin-top: 0;
 }
 
 
-main {
-     float: left;
-     width: 10%;
-     
+.main-nav-ul{
+     margin-top: 0;
+     list-style: none;
+     padding-left: 20px;
+     margin-left: 20%;
+}
 
+.main-nav-ul li{
+     display: inline-block;
+     margin-top: 20px;
+}
+
+.main-nav-ul a{
+     color: blueviolet;
+     background-color: aqua;
+     padding: 5px;
+     border-radius: 5px;
+     text-decoration: none;
+     
+}
+
+nav *{
+     float: left;
+     width: 33%;
+}
+
+nav img{
+     margin-top: 20px;
+     list-style: none;
+     padding-left: 1S0px;
+     width: 50px;
+     height: 50px;
+
+}
+
+.main-nav-ul2{
+     margin-top: 0;
+     list-style: none;
+     padding-left: 20px;
+     margin-left: 50%;
+}
+
+.main-nav-ul2 li{
+     display: inline-block;
+     margin-top: 20px;
+}
+
+.main-nav-ul2 a{
+     color: blueviolet;
+     background-color: aqua;
+     padding: 5px;
+     border-radius: 5px;
+     text-decoration: none;
+}
+
+.topsection{
+     margin-top: 5%;
+     padding-left: 30px;
+     margin-left: 10%;
+}
+
+.topsection h1{
+     text-align: center;
+     font-size: 50px;
+     font-family: 'Courier New', Courier, monospace;
+}
+
+.topsection + p{
+     position: relative;
+     text-align: center;
+     text-justify: auto;
 }

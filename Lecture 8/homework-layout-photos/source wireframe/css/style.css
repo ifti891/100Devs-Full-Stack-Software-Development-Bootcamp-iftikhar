@@ -30,13 +30,31 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+     width: 100%;
+     float: left;
+     display: block;
+     height: 100px;
+     background: rgb(245, 218, 218);
+     color: black;
+     /* margin-top: 10px; */
+     /* text-decoration: none; */
+     text-align: center;
 }
 
-footer {
-
+nav *{
+     width: 100%;
+     float: left;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.header_ul li{
+     width: 10%;
+     /* float: left; */
+     margin-top: 15px;
+     /* text-decoration: none; */
+     list-style: none;
+     /* margin-left: 5%; */
+}
+nav .header_ul > li{
+     text-decoration: none;
+}
+

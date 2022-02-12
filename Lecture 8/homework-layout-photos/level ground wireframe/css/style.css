@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-     
+     /* width: 80%; */
 }
 
 
@@ -61,12 +61,12 @@ header {
 }
 
 nav *{
-     float: left;
+     /* float: left; */
      display: inline-block;
      /* margin-top: 20px; */
 }
 
-nav img{
+nav > img{
      /* margin-top: 20px; */
      /* list-style: none; */
      /* padding-left: 10px; */
@@ -116,7 +116,7 @@ nav img{
      padding-left: 50%;
      /* width: 100px;
      height: 100px; */
-}
+
 
 /* .topsection a{
      position: relative;
@@ -127,40 +127,212 @@ nav img{
      text-align: center;
 } */ 
 
-.watch_the_video_ul{
-     padding-top: 10%;
-     list-style: none;
-     display: block;
+/* .watch_the_video_ul{
+     /* padding-top: 10%; */
+     /* list-style: none; */
+     /* display: inline-block; */
      /* float: left; */
      /* margin-bottom: 10%; */
      /* text-decoration: none; */
 
-}
 
-.watch_the_video_ul > li{
+
+/* .watch_the_video_ul > li{
      text-decoration: none;
      list-style: none;
-
+     display: inline-block;
      /* display: block; */
-     float: left;
+     /* float: left; */
      /* padding: 0 20px 0 0; */
      /* position:absolute; */
      /* text-decoration: none; */
-}
+/* } */ 
 
-.watch_the_video_ul  img{
-     margin-top: 20px;
-}
+/* .watch_the_video_ul  img{
+     /* margin-top: 20px; */
+/* }  */
 
-.watch_the_video_ul  span{
+/* center_middle_logo{
+     /* width: 100%; */
+     /* margin-top: 2%; */
+     /* margin-left: 50%; */
+/* } */ 
+
+
+/* .watch_the_video_ul  span{
      color: Yellow;
      /* text-decoration: none; */
      /* margin-top: 40px; */
-     padding-top: 30px;
-}
+     /* padding-top: 30px; */
+     
+/* } */ 
 
-.topsection > p{
+/* .topsection > h4{
      text-align: center;
      padding-top: 0;
      margin-top: 10%;
+} */
+
+.move-to-center-span{
+     position: relative;
+     margin-left: 0 auto;
+     
+}
+
+.center_middle_logo{
+     margin-left: 40%;
+}
+
+.topsection h4{
+     margin-bottom: 2rem;
+     padding-top: 7%;
+     margin-left: 40%;
+}
+
+.section_two_from_top{
+     float: left;
+     margin-top: 5%;
+     margin-left: 20%;
+     margin-right: 20%;
+}
+
+.section_two_from_top > h2{
+     text-align: center;
+}
+
+.section_two_from_top >p{
+     text-align: center;
+}
+
+.big_third_section_from_top{
+     margin-top: 5%;
+     padding-top: 15%;
+     float: left;
+     display: block;
+     width: 100%;
+     height: 600px;
+     background-color: rgb(219, 223, 226);
+}
+
+.small_section1_in_section_third{
+     float: left;
+     display: block;
+     width: 50%;
+
+}
+
+.small_section2_in_section_third{
+     float: left;
+     display: block;
+     width: 50%;
+}
+
+.small_section1_in_section_third >img{
+     padding-left: 40%;
+
+}
+
+.small_section1_in_section_third > h3{
+     text-align: center;
+}
+.small_section1_in_section_third > p{
+     text-align: center;
+     padding-left: 10%;
+     padding-right: 10%;
+}
+
+.small_section1_in_section_third > a{
+     text-decoration: none;
+     padding-left: 40%;
+}
+
+
+
+.small_section2_in_section_third >img{
+     padding-left: 40%;
+
+}
+
+.small_section2_in_section_third > h3{
+     text-align: center;
+}
+.small_section2_in_section_third > p{
+     text-align: center;
+     padding-left: 10%;
+     padding-right: 10%;
+}
+
+.small_section2_in_section_third > a{
+     text-decoration: none;
+     padding-left: 40%;
+}
+
+
+.fourth_section{
+     width: 100%;
+     height: 400px;
+     margin-top: 5%;
+     float: left;
+     display: block;
+}
+
+.fourth_section > h2{
+     text-align: center;
+}
+
+.fourth_section > p{
+     text-align: center;
+     padding-top: 2%;
+     padding-left: 20%;
+     padding-right: 20%;
+}
+
+.fourth_section > a{
+     text-decoration: none;
+     padding-left: 45%;
+     padding-right: 45%;
+}
+
+
+@media screen and (max-width: 400px) {
+     .big_third_section_from_top{
+          background-color: aqua;
+     }
+
+     .section_two_from_top{
+          background-color: violet;
+     }
+
+     .small_section1_in_section_third{
+          background: red;
+     }
+}
+
+@media (min-width: 401px) and (max-width:600px) {
+     .topsection{
+          background: greenyellow;
+     }
+
+     .small_section2_in_section_third{
+          background: gold;
+     }
+
+     .small_section1_in_section_third{
+          background: purple;
+     }
+}
+
+
+@media (min-width: 601px) and (max-width:800px) {
+     .section_two_from_top{
+          background: rgb(206, 104, 104);
+     }
+     
+     .small_section1_in_section_third{
+          background: silver;
+     }
+
+     .small_section2_in_section_third{
+          background: rgb(96, 96, 224);
+     }
 }

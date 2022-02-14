@@ -76,7 +76,7 @@ body{
 }
 
 main + section > section{
-  width: 33.33%;
+  width: 33%;
   float: left;
   position: relative;
   height: 35px;

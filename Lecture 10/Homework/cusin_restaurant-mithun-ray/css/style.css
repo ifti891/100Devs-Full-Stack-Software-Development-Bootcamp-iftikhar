@@ -29,14 +29,184 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header{
+  width: 100%;
+  float: left;
+  display: block;
+  height: 100px;
+  /* margin-top: 20px; */
+  background: rgb(241, 246, 249);
+  position: relative;
+  margin-top: 0;
+}
+
+.header_ul > li {
+  color: green;
+  float: left;
+  display: block;
+  width: 9%;
+  margin-top: 20px;
+  text-decoration: none;
+  position: relative;
+  /* margin-left: -4%; */
+  /* border: 2px solid red; */
+}
+
+.header_ul li > a *{
+  /* list-style: none; */
+  /* text-decoration: none; */
+  float: left;
+  display: block;
+  width: 0 auto;
+  position: relative;
+  /* color: red; */
+  /* margin-left: 20%; */
+}
+
+nav .header_ul {
+  margin-left: 30%;
+  text-decoration: none;
 
 }
 
-footer {
-
+.header_ul > li *{
+  text-decoration: none;
+  /* margin: 0 0 0 6em; */
 }
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+nav > a{
+  float: left;
+  display: block;
+  /* width: 10%; */
+  background: blueviolet;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+nav form{
+  float: left;
+  display: block;
+  width: 0 auto;
+  position: relative;
+  margin-left: 1%;
+  margin-top: 20px;
+}
+
+.top_big_main_section{
+  float: left;
+  display: block;
+  width: 100%;
+  border: 3px solid blue;
+}
+
+.first_main_section{
+  width: 50%;
+  float: left;
+  display: block;
+  border: 2px solid red;
+}
+
+.second_main_section{
+  width: 50%;
+  float: left;
+  display: block;
+  border: 2px solid green;
+}
+
+.first_main_section > img{
+  float: left;
+  display: block;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 0 auto;
+}
+
+.second_big_section{
+  width: 100%;
+  float: left;
+  display: block;
+  position: relative;
+  /* margin-top: 5%; */
+  text-align: left;
+  /* padding-top: 5%; */
+  /* margin-left: 20%; */
+  /* margin-right: 20%; */
+  padding: 5% 25% 5% 40%;
+
+  /* margin-right: ; */
+  border: 3px solid purple;
+  /* padding-right: 60%; */
+}
+
+/* .second_big_section h2{
+  /* text-align: left; */
+  /* padding-left: 40%; */
+  /* padding-right: 40%; */
+
+
+.second_big_section > span{
+  color: rgb(202, 119, 11);
+}
+
+.second_big_section > a{
+  background: orange;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.big_bottom_section{
+  width: 100%;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5% 15% 5% 25%;
+  position: relative;
+  border: 3px solid rgb(182, 212, 10);
+}
+
+
+nav > .bottom_ul *{
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  display: block;
+  width: 5%;
+  padding-left: 15%;
+  position: relative;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin: 0;
+
+}
+
+.bottom_second_section{
+  padding-left: 5%;
+  position: relative;
+  /* border: 3px solid green; */
+  /* text-underline-offset: 100px; */
+}
+
+
+.big_bottom_section .bottom_four_sections > section {
+  width: 25%;
+  float: left;
+  display: block;
+  position: relative;
+  border: 2px solid blue;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.bottom_first > a{
+  background: gold;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+
+

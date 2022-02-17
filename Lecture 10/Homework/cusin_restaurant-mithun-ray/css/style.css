@@ -80,11 +80,12 @@ nav > a{
   float: left;
   display: block;
   /* width: 10%; */
-  background: rgb(27, 27, 20);
+  /* background: rgb(27, 27, 20); */
   margin-left: 5%;
   margin-top: 20px;
-  color: white;
-  border-radius: 50%;
+  color: black;
+  text-decoration: none;
+  /* border-radius: 50%; */
 }
 
 nav form{
@@ -100,7 +101,7 @@ nav form{
   float: left;
   display: block;
   width: 100%;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   clear: both;
   position: relative;
   /* height: 200%; */
@@ -111,8 +112,8 @@ nav form{
   width: 100%;
   float: left;
   display: block;
-  border: 2px solid red;
-  clear: both;
+  /* border: 2px solid red; */
+  /* clear: both; */
   text-align: left;
   padding: 5% 68% 5% 5%;
   /* font-size: 25px; */
@@ -149,14 +150,17 @@ nav form{
   border: 2px solid green;
 } */
 
-.first_main_section > img{
+.first_main_section > span{
   float: left;
   display: block;
   position: relative;
+  /* width: 20px;
+  height: 20px; */
   /* margin-top: 2%;
   margin-left: 5%; */
+  /* size: 10%; */
   width: 0 auto;
-  padding: 5% 10% 0 2%;
+  padding: 5% 3% 0 2%;
   /* clear: both; */
 }
 
@@ -170,11 +174,11 @@ nav form{
   /* padding-top: 5%; */
   /* margin-left: 20%; */
   /* margin-right: 20%; */
-  padding: 5% 25% 5% 40%;
+  /* padding: 5% 25% 5% 40%; */
 
   /* margin-right: ; */
-  border: 3px solid purple;
-  clear: both;
+  /* border: 3px solid purple; */
+  /* clear: both; */
   /* padding-right: 60%; */
 }
 
@@ -202,7 +206,7 @@ nav form{
   text-align: center;
   padding: 5% 15% 5% 25%;
   position: relative;
-  border: 3px solid rgb(182, 212, 10);
+  /* border: 3px solid rgb(182, 212, 10); */
 }
 
 
@@ -229,14 +233,20 @@ nav > .bottom_ul *{
 
 
 .big_bottom_section .bottom_four_sections > section {
-  width: 25%;
+  width: 23%;
   float: left;
   display: block;
   position: relative;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   padding-top: 5%;
   padding-bottom: 5%;
+  margin-left: 2%;
+  /* padding-right: 1%; */
 }
+
+/* .big_bottom_section{
+  background-color: rgb(242, 246, 247);
+} */
 
 .bottom_first > a{
   background: gold;
@@ -250,7 +260,7 @@ nav > .bottom_ul *{
   float: left;
   display: block;
   width: 100%;
-  border: 3px solid magenta;
+  /* border: 3px solid magenta; */
   text-align: center;
   position: relative;
   /* text-decoration: none; */
@@ -267,7 +277,7 @@ nav > .bottom_ul *{
   /* padding: 5px; */
   /* float: left; */
   display: block;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   text-align: center;
   position: relative;
 }
@@ -281,9 +291,10 @@ nav > .bottom_ul *{
   float: left;
   display: block;
   width: 100%;
-  border: 3px solid orangered;
+  /* border: 3px solid orangered; */
   position: relative;
   /* list-style: none; */
+  clear: both;
 }
 
 .openingHoursFirst {
@@ -296,7 +307,7 @@ nav > .bottom_ul *{
   /* padding: 0 40%; */
   /* padding-left: 33%; */
   padding-left: 33%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   /* padding-right: -20%; */
 }
 
@@ -309,24 +320,27 @@ nav > .bottom_ul *{
   position: relative;
   padding-left: 10%;
   /* padding-left: 15%; */
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
+  /* clear: both; */
 }
 
 .openingHoursImage{
   float: left;
   width: 100%;
+  /* display: inline; */
   display: block;
-  text-align: center;
-  padding: 5% 20% 5% 20%;
+  /* clear: both; */
+  /* text-align: center; */
+  padding: 2% 0 5% 0;
   /* padding-top: 50px; */
-  border: 3px solid gold;
+  /* border: 3px solid gold; */
 }
 
 .lastBigSection{
   float: left;
   display: block;
   width: 100%;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   text-align: center;
   padding: 5% 30% 5% 35%;
 }
@@ -362,6 +376,78 @@ main{
   
 }
 
-.first_main_section > h1{
+.addTwoPicturesBackground{
+  background:  url(../assets/with\ pie.jfif),  radial-gradient(circle at 50% 40%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.986), white, white);
+  /* background-position: left right; */
+  background-repeat: no-repeat repeat;
+  /* background-size: 50% 100%; */
+  float: left;
+  /* display: block; */
+  /* width: 100%;
+  height: 500px; */
+  width: 100vw;
+  height: 60vh; 
+  background-size: contain;
+  /* padding-right: 50%; */
+  /* margin-right: -40%; */
+  z-index: -1;
+}
+
+.second_big_section{
+  padding: 5% 10% 5% 50%;
+}
+
+.second_big_section> p + p, a{
+  /* padding-left: 50%;
+  padding-right: 5%;
+  padding-bottom: 5%; */
+  /* padding-right: -80%; */
+  /* width: 100%; */
+  padding-bottom: 5%;
 
 }
+
+/* .bottom_second_section  .bottom_ul li > a *{
+  border-bottom: 2px solid gray;
+  
+} */
+
+.bottom_first{
+  background: url(../assets/in\ bowl.jfif);
+  background-repeat: no-repeat;
+  z-index: -1;
+  /* height: ; */
+  width: 80%;
+  height: 40vh;
+  background-size: cover;
+  /* margin-left: -20%; */
+  /* padding-left: -20%; */
+}
+
+.bottom_two{
+  background: url(../assets/in\ cafe.jfif) no-repeat;
+  z-index: -1;
+  width: 80vw;
+  height: 40vh;
+  background-size: cover;
+  position: relative;
+  background-position: left;
+}
+
+.bottom_three{
+  background: url(../assets/with\ mushrooms.jfif) no-repeat;
+  z-index: -1;
+  width: 8vw;
+  height: 40vh;
+  background-size: cover;
+  position: relative;
+}
+
+.bottom_four{
+  background: url(../assets/toast\ egg.jfif) no-repeat;
+  z-index: -1;
+  width: 80vw;
+  height: 40vh;
+  background-size: cover;
+}
+

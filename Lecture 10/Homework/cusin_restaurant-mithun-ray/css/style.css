@@ -80,9 +80,11 @@ nav > a{
   float: left;
   display: block;
   /* width: 10%; */
-  background: blueviolet;
+  background: rgb(27, 27, 20);
   margin-left: 5%;
   margin-top: 20px;
+  color: white;
+  border-radius: 50%;
 }
 
 nav form{
@@ -112,7 +114,33 @@ nav form{
   border: 2px solid red;
   clear: both;
   text-align: left;
+  padding: 5% 68% 5% 5%;
+  /* font-size: 25px; */
 }
+
+.first_main_section > h1{
+  font-size: 3.4em;
+  text-align: left;
+  /* padding: 5% 69% 2% 10%; */
+  /* border: 2px solid blue; */
+  /* margin-left: 5%;   */
+  /* margin-right: -10; */
+  /* margin-right: %; */
+}
+
+
+
+.first_main_section form > a{
+  background: orangered;
+  padding: 5px 10px;
+  margin-left: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  border-radius: 1em;
+}
+
+
 
 /* .second_main_section{
   width: 50%;
@@ -125,9 +153,10 @@ nav form{
   float: left;
   display: block;
   position: relative;
-  margin-top: 2%;
-  margin-left: 5%;
+  /* margin-top: 2%;
+  margin-left: 5%; */
   width: 0 auto;
+  padding: 5% 10% 0 2%;
   /* clear: both; */
 }
 
@@ -314,11 +343,11 @@ nav > .bottom_ul *{
   
 } */
 
-.top_big_main_section{
+main{
   background-image: url("../assets/with\ orange.png");
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
+  height: 600px;
   /* float: left;
   display: block; */
   position: relative;
@@ -331,4 +360,8 @@ nav > .bottom_ul *{
   /* resize: both; */
   /* overflow: scroll; */
   
+}
+
+.first_main_section > h1{
+
 }

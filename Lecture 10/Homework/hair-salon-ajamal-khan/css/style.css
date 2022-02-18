@@ -13,6 +13,12 @@
      height: 0;
 }
 
+/* *,
+:before,
+:after {
+  box-sizing: border-box;
+} */
+
 .clear {
 	clear: both;
 }
@@ -29,14 +35,87 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+header > nav {
+  float: left;
+  width: 100%;
+  display: block;
+  height: 100px;
+  display: block;
+  margin-top: 10px;
+  /* font-size: 16px; */
 }
 
-footer {
-
+nav .headerFirstSpan{
+  /* width: 5%; */
+  float: inline-block;
+  color: red;
+  /* display: block; */
+  /* margin-left: 5%; */
+  font-size: 1.3rem;
+  /* margin-bottom: px; */
+  font-weight: bold;
+  border: 2px solid black;
+  /* padding-top: 10px; */
+  /* margin-top: 10px; */
+  
+}
+.headerFirstSpan{
+  padding-top: 5%;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+nav .headerUl{
+  /* float: left; */
+  width: 60%;
+  color: green;
+  /* display: block; */
+  list-style: none;
+  /* text-decoration: none; */
+  margin-left: 15%;
+}
+
+nav .headerUl > li{
+  width: 15%;
+  float: left;
+  text-decoration: none;
+  /* padding-right: 5%; */
+  margin-right: -5%;
+  padding-left: 6%;
+}
+
+.headerUl li > a{
+  text-decoration: none;
+  color: blueviolet;
+  /* padding-right: -5%; */
+  /* width: 15%; */
+}
+
+nav label{
+  /* width: auto; */
+  width: 2%;
+  /* height: 28px;  */
+  /* padding-left: 2%; */
+  padding-right: -2%;
+  /* display: block; */
+  /* align-items: center; */
+  /* justify-content: flex-end; */
+  border: 3px solid transparent;
+  /* border-radius: 50%; */
+  margin-left: 4%;
+  background: url("../assets/search-icon.png") no-repeat 9px 9px #F3F9F9;
+  
+}
+
+nav .shoppingBagHeader{
+  margin-left: 2%;
+  text-decoration: none;
+  width: 38px;
+  height: 38px;
+}
+
+
+.headerLastSpan{
+  width: 9;
+  margin-left: 4%;
+}
+

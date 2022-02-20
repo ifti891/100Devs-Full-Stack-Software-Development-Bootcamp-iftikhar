@@ -33,14 +33,16 @@ body {
 
 ul li{
   list-style: none;
+  font-size: 0.8rem;
 }
 
 a{
   text-decoration: none;
+  font-size: .8rem;
 }
 
 img{
-  color: #000;
+  /* color: #000; */
   width: 100%;
 }
 
@@ -49,34 +51,50 @@ img{
 /*******************************************/
 
 header{
-  height: 60%;
+  height: 70PX;
   color: #000;
   overflow: hidden;
   padding-top: 10px;
   text-align: center;
+  background: #f5e2e2;
 }
 
 
 .headerFirstSpan{
-  width: 15%;
+  width: 10%;
   float: left;
   margin-left: 5em;
-  margin-top: 1em;
+  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Tangerine', cursive;
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: bolder;
 }
 
 header nav{
   float: left;
   width: 50%;
+  font-family: 'Itim', cursive;
+  color: black;
 }
 
 nav li{
   float: left;
   width: 15%;
+  color: black;
+}
+
+.headerUl > li *{
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+  /* margin-top: 0; */
+  /* padding-top: 0; */
 }
 
 .shoppingInBagHeader{
-  width: 2.8em;
-  height: 1.5em;
+  width: 2.9em;
+  height: 2em;
   margin-right: 10%;
   float: left;
 }
@@ -84,11 +102,15 @@ nav li{
 .rightSideContentInHeader{
   width: 20%;
   float: left;
+  color: black;
 }
 
 .rightSideContentInHeader a{
   float: left;
   margin-top: 1em;
+  color: #000;
+  font-family: 'Itim', cursive;
+  font-weight: bold;
 }
 
 
@@ -96,6 +118,408 @@ nav li{
   .headerFirstSpan{
     margin-left: 4rem;
   }
-  nav, 
+  nav, .rightSideContentInHeader{
+    display: none;
+  }
 }
 
+main{
+  width: 100%;
+  float: left;
+  display: block;
+  clear: both;
+  color: black;
+  text-align: left;
+}
+
+.bigMainSection{
+  background-image: url(../assets/color\ hair\ shop.gif);
+  background-repeat: no-repeat; 
+  z-index: -1;
+  width: 100vw;
+  height: 70vh;
+  margin-top: 5%;
+  background-position: right;
+  background-size: contain;
+  /* border-radius: 0 1% 5% 30%; */
+}
+
+.titleSection h1{
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 3rem;
+  padding: 0 50% 0 5%;
+  color: rgb(218, 71, 71);
+}
+
+.titleSection p{
+  padding-left: 10%;
+  font-weight: bold;
+  font-size: .9rem;
+  margin-bottom: 2%;
+}
+
+.titleSection a{
+  background-color: black;
+  margin-left: 10%;
+  padding: .5rem .8rem;
+  color: white;
+  border-radius: 5px;
+}
+
+.smallCoolUnderneathTitleSection{
+  width: 15em;
+  height: 17em;
+  background-color: #6B343D;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  float: left;
+  display: block;
+  text-align: left;
+}
+
+.smallCoolUnderneathTitleSection h5{
+  margin-top: 4em;
+  margin-left: 2em;
+  margin-bottom: 5%;
+  /* padding-right: 0.8em; */
+}
+
+.smallCoolUnderneathTitleSection p{
+  padding-top: 2em;
+  margin-left: 1em;
+  font-size: 0.9em;
+  padding-right: .7em;
+  margin-bottom: 3em;
+}
+
+.smallCoolUnderneathTitleSection .bigBoldSpan{
+  font-size: 2.5em;
+  /* padding-bottom: 5%; */
+  /* margin-bottom: 4em; */
+}
+
+.smallCoolUnderneathTitleSection > a{
+  margin-left: 3.5em;
+  background: white;
+  padding: .8em 1.8em;
+  font-weight: bold;
+  /* padding-top: 5%; */
+  /* margin-top: 5em; */
+  border-radius: 1em;
+}
+
+.topLowerSection {
+  float: left;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #b2c6ee;
+  /* padding-left: 10%; */
+  /* padding-right: 10%; */
+}
+
+.lowerTopSection{
+  float: left;
+  display: block;
+  width: 20%;
+  margin-left: 8em;
+}
+
+.lowerTopSection img{
+  width: 6em;
+  height: 6em;
+
+}
+
+.firstPageLastSection{
+  float: left;
+  display: block;
+  width: 100%;
+  text-align: left;
+  /* margin-top: 4%; */
+  text-decoration: none;
+  background: #e9e8e8;
+  padding-top: 8%;
+  /* margin-top: 5%; */
+  padding-bottom: 5%;
+  /* clear: both; */
+}
+
+.firstPageLast{
+  width: 25%;
+  float: left;
+  display: block;
+  /* text-align: center; */
+  margin: 0 4% 5% 15%;
+  margin-right: -3%;
+  /* margin-top: 5%; */
+
+}
+
+.firstPageLast img{
+  width: 28em;
+  height: 18em;
+  border: 4px solid #E9E8E8;
+  border-radius: 7%;
+}
+
+.firstPageLast h2{
+  margin: 0;
+  font-size: 2.3em;
+}
+
+.firstPageLast p{
+  margin-bottom: 10%;
+}
+
+.firstPageLast a{
+  background: #6B343D;
+  color: white;
+  padding: 15px 15px;
+  font-weight: bold;
+  border-radius: 0.8em;
+  /* margin-top: 10%; */
+}
+
+
+.threePhotosInSecondPage{
+  float: left;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  /* margin-left: 10%; */
+  /* margin-top: 5%; */
+  /* margin: 10% 15% 10% 18%; */
+  /* border: 3px solid red; */
+  /* padding-left: 10%; */
+  /* margin-top: %; */
+  margin-bottom: 5%;
+  margin-left: 10%;
+  color: white;
+}
+
+.threePhotosInSecondPage > section{
+  width: 20%;
+  float: left;
+  margin-left: 5%;
+  /* display: block; */
+}
+
+.firstImage{
+  background: url(../assets/bb1.gif);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
+  /* background-position: left; */
+  z-index: -1;
+  width: 100vw;
+  height: 50vh;
+  /* border: 3px solid orangered; */
+}
+
+.bigSec > .smallSection {
+  background: rgb(10, 9, 20);
+  margin-left: 20%;
+  /* margin-right: -40%; */
+  /* padding-top: 50%; */
+  margin-top: 56%;
+  float: left;
+  font-size: 64.2%;
+  /* display: block; */
+  padding: 0 7em 0 8em;
+  /* margin-bottom: 1%; */
+}
+
+.smallSection > h5 *{
+  text-align: center;
+  /* font-size: 2rem; */
+  font-variant: normal;
+  font-style: italic;
+  margin-top: 0;
+  /* margin-top: 5%; */
+  /* padding-top: 5%; */
+}
+
+.smallSection  span {
+  /* margin-top: 5%; */
+  font-size: .9em;
+  font-style: italic;
+  margin: 0;
+  
+}
+
+.secondImage{
+  background: url(../assets/bb2.gif);
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: contain;
+  width: 100vw;
+  height: 50vh;
+}
+
+.thirdImage{
+  background: url(../assets/bb3.gif);
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: contain;
+  width: 100vw;
+  height: 50vh;
+}
+
+
+.aMiddleSection{
+  float: left;
+  display: block;
+  width: 45vw;
+  height: 25vh;
+  background: url(../assets/barber.jpg), linear-gradient(0.25turn, #3f87a6, skyblue, #D6E3BF, White ,white,  #D6E3BF);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  z-index: -1;
+  font-size: 64.2%;
+  /* margin-top: 5%; */
+  padding-top: 2%;
+  margin-bottom: 10%;
+  text-decoration: none;
+  /* margin-right: 5%; */
+  /* padding-right: -5%; */
+  /* background-color: #6B343D; */
+  margin-left: 25%;
+  /* padding-left: 1%; */
+margin-top: 0;
+  text-align: left;
+  /* margin-left: 15em; */
+}
+
+.aMiddleSection .closeToImageSpan{
+  margin-left: 10%;
+  /* margin-top: 5%; */
+  /* padding-top: 5%; */
+  font-size: 1.2em;
+  font-weight: bold;
+  /* color: red; */
+}
+
+.aMiddleSection p {
+  margin-left: 10%;
+  font-size: 1.4em;
+  /* padding-right: 5%; */
+  margin-bottom: 4%;
+  /* margin-left: 5%; */
+  /* margin-right: 15%; */
+  /* background-color: #b2c6ee; */
+}
+
+.aMiddleSection p > span{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.aMiddleSection a{
+  margin-left: 10%;
+  font-size: 1em;
+  background: black;
+  color: white;
+  border-radius: 1em;
+  padding: 1em 2em 1em 2em;
+}
+
+
+
+.LastSixPhotosOflastSection {
+  width:  100%;
+  height:  100vh;
+  /* text-align: center; */
+  /* border:  5px  solid  black; */
+  overflow: auto;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  /* border-bottom: 5%; */
+  /* margin-right: 10%; */
+  } 
+  .LastSixPhotosOflastSection h3{
+    /* text-align: center; */
+    margin-left: 12%;
+    font-family: 'Shizuru', cursive;
+    font-size: 2.5em;
+  }
+  .box  {
+  /* border:  1px  solid  red; */
+  float:  left;
+  width:  15%;
+  height:  30vh;
+  margin:  0.5%;
+  /* border-bottom: 5%; */
+  /* margin-left: 5%; */
+  }
+
+  .one{
+height: 25vh;
+  }
+
+  /* .one img{
+    height: 25vh;
+  } */
+
+  .two{
+    height: 50vh;
+  }
+  /* .two img{
+    height: 50vh;
+
+  } */
+
+  .three{
+    height: 25vh;
+  }
+
+  /* .three img{
+    height: 25vh;
+  } */
+
+  .four{
+    clear: both;
+    height: 50vh;
+    margin-top: -24vh;
+  }
+
+  /* .four img{
+    height: 50vh;
+  } */
+  
+  .five {
+    height: 25vh;
+    background: #000;
+    /* margin: 50%; */
+  }
+
+  /* .five > img{
+    /* height: 25vh; */
+  
+
+
+  .six{
+    height: 50vh;
+    margin-top: -24vh;
+  }
+
+  /* .six img{
+    height: 50vh;
+  } */
+
+img{
+  width: 100%;
+  height: 100%;
+  /* margin-left: 15%; */
+}

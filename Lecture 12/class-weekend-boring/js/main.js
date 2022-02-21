@@ -1,18 +1,20 @@
 document.querySelector('#check').addEventListener('click', check)
 
+
 function check() {
 
   const day = document.querySelector('#day').value
+  let output = ''
 
     if(day === "Wednesday" || day === "Friday"){
-      document.write('CLASS DAY');
+      output = 'CLASS DAY';
     }else if(day === "Saturday" || day === "Sunday"){
-      document.write('Weekend');
+      output = 'Weekend';
     }else{
-      document.write('Booring');
+      output = 'Booring';
     }
 
-    document.getElementById('placeToSee').innerText = value;
+    document.getElementById('placeToSee').innerText = output;
 }
 
 

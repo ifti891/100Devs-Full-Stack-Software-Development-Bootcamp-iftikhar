@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <script>
+    "use strict";
+
+
+    function checkAge(age) {
+      return (age > 18); {
+        return true;
+      } else {
+        return confirm("Do you have permission from your parents?");
+      }
+
+    }
+
+
+    let age = promt("How old are you?", 18);
+    if (checkAge(age)) {
+      alert("Access granted")
+    } else {
+      alert("Access denied")
+    }
+
+  </script>
+
+</html>

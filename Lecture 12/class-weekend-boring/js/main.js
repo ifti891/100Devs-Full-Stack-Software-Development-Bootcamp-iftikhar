@@ -4,7 +4,7 @@ document.querySelector('#check').addEventListener('click', check)
 function check() {
 
   const day = document.querySelector('#day').value
-  let output = ''
+  var output = ''
 
     if(day === "Wednesday" || day === "Friday"){
       output = 'CLASS DAY';

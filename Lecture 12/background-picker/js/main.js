@@ -15,7 +15,7 @@ function partyGreen() {
 }
 
 function partyBlue() {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
+  document.querySelector('body').style.backgroundColor = 'rgb(101, 50, 221)'
   document.querySelector('body').style.color = 'white'
 }
 

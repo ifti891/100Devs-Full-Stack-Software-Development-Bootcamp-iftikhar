@@ -19,16 +19,23 @@ img{
   margin: 0 auto;
 }
 ul{
-  width: 100px;
+  width: 50vw;
   height: 100%;
-  border: 3px solid black;
+  /* border: 2px solid black; */
   margin: 0 auto;
   list-style: none;
   padding: 0;
+  display: flex;
+  /* border-radius: 40%; */
+
 }
 li{
-  width: 94px;
+  width: 50vw;
   height: 65px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 2%;
+
 }
 
 /******************************************
@@ -41,7 +48,7 @@ li{
   background: rgba(0,253,81,1);
 }
 #blue{
-  background: rgba(0,254,255);
+  background: rgb(101, 50, 221);
 }
 #gold{
   background: rgba(255, 215, 0);

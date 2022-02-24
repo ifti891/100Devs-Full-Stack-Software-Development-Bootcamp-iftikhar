@@ -1,40 +1,40 @@
 
-// document.querySelector('#check').addEventListener('click', check)
+document.querySelector('#check').addEventListener('click', check)
 
-
-// function check() {
-
-//   const day = document.querySelector('#day').value.toLowerCase()
-//   let output = ''
-
-//   if(day === "tuesday" || day === "thursday"){
-//     output = "YOU HAVE CLASS"
-//   }else if( day === "saturday" || day === "sunday"){
-//     output = "Its The Weekend"
-//   }else{
-//     output = "BORING"
-//   }
-//   document.getElementById('placeToSee').innerText = output
-// }
-
-
-
-
-document.querySelector("#check").addEventListener("click", check)
 
 function check() {
-  const day = document.querySelector("#day").value.toLowerCase()
+
+  const day = document.querySelector('#day').value.toLowerCase()
   let output = ''
 
-  if (day === "wednesday" || day === "friday") {
-    output = "CLASS DAYYYYY"
+  if(day === "tuesday" || day === "thursday"){
+    output = "YOU HAVE CLASS"
   }else if( day === "saturday" || day === "sunday"){
-    output = "Weekend"
-  }else {
-    output = "Boooooring"
+    output = "Its The Weekend"
+  }else{
+    output = "BORING"
   }
-  document.getElementbyId("placeToSee").innerText = output;
+  document.getElementById('placeToSee').innerText = output
 }
+
+
+
+
+// document.querySelector("#check").addEventListener("click", check)
+
+// function check() {
+//   const day = document.querySelector("#day").value.toLowerCase()
+//   let output = ''
+
+//   if (day === "wednesday" || day === "friday") {
+//     output = "CLASS DAYYYYY"
+//   }else if( day === "saturday" || day === "sunday"){
+//     output = "Weekend"
+//   }else {
+//     output = "Boooooring"
+//   }
+//   document.getElementbyId("placeToSee").innerText = output;
+// }
 
 
 

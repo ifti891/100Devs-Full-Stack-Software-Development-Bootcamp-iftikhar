@@ -1,4 +1,4 @@
-const contestants = document.querySelectorAll('.contestants')
+const contestants = document.querySelectorAll('.contestant')
 
 Array.from(contestants).forEach(element => element.addEventListener('click', checkForRose))
 

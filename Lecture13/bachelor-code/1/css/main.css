@@ -1,1 +1,10 @@
 
+section {
+  display: flex;
+  height: 30vh;
+  width: 40vw;
+}
+
+section img {
+  margin: 2%;
+}

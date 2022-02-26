@@ -1,21 +1,76 @@
 
-document.querySelector('#check').addEventListener('click', check)
 
+function check(){
+  const day = document.querySelector("#day").value.toLowerCase()
 
-function check() {
-
-  const day = document.querySelector('#day').value.toLowerCase()
-  let output = ''
-
-  if(day === "tuesday" || day === "thursday"){
-    output = "YOU HAVE CLASS"
-  }else if( day === "saturday" || day === "sunday"){
-    output = "Its The Weekend"
-  }else{
-    output = "BORING"
-  }
-  document.getElementById('placeToSee').innerText = output
+  let output = ""
+  if (day === "thursday" || )
 }
+
+
+
+// document.querySelector('#check').addEventListener('click', check)
+
+
+// function check(){
+//   const day = document.querySelector("#day").value.toLowerCase();
+
+//   let messege = ''
+
+//   if (day === 'thursday' || day === 'friday'){
+//     messege = 'It\'s class day!'
+//   } else if (day === 'saturday' || day === 'sunday'){
+//     messege = "It's weekend!"
+//   }else{
+//     messege = "Booooooring"
+//   }
+//   document.getElementById('placeToSee').innerText = messege
+  
+// }
+
+
+
+// document.querySelector('#check').addEventListener('click', check)
+
+
+// function check() {
+
+//   const day = document.querySelector('#day').value.toLowerCase()
+//   let output = ''
+
+//   if(day === "thursday" || day === "friday"){
+//     output = "YOU HAVE CLASS TODAY"
+//   }else if( day === "saturday" || day === "sunday"){
+//     output = "Its The Weekend"
+//   }else{
+//     output = "BORING"
+//   }
+//   document.getElementById('placeToSee').innerText = output
+// }
+
+
+
+// document.querySelector("#check").addEventListener('click', check)
+
+
+// function check() {
+//   const day = document.querrySelector("#day").value.toLowerCase()
+
+//   let output = ''
+
+//   if(day === "thursday" || day === "friday"){
+//     output = "this is a Class Day Folks"
+//   }else if(day === "saturday" || day === "sunday"){
+//     output = "weeeeeeekeend my friend"
+//   }else{
+//     output = "Boooooooring"
+//   }
+//   document.getElementById("placeToSee").innerText = output
+// }
+
+
+
+
 
 
 

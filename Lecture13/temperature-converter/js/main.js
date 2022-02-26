@@ -1,23 +1,76 @@
-document.querySelector('#yell').addEventListener('click', convert)
 
+document.querySelector('#yell').addEventListener('click', run)
 
-function convert() {
-  
-  
-// need the value in the sellseeyus
-let temp = document.querySelector('#cel').value
+function run(){
+  // console.log("Hello friends")
+  let temp = document.querySelector("#cel").value
 
-// convert from sellseeyus to ferenheight
+  // need temperature
 
-temp = temp + 9/5 + 32
+// get vaue of input
 
+// covert the value
 
-// show it
+//  show tempreture
 
-document.querySelector('#placeToYell').innerText = temp
-// console.log(some vale)
+  temp = temp * 5/9 + 32
 
+  document.querySelector('#placeToYell').innerText = temp
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// document.querySelector('#yell').addEventListener('click', convert)
+
+
+// function convert() {
+  
+  
+// // need the value in the sellseeyus
+// let temp = document.querySelector('#cel').value
+
+// // convert from sellseeyus to ferenheight
+
+// temp = temp + 9/5 + 32
+
+
+// // show it
+
+// document.querySelector('#placeToYell').innerText = temp
+// // console.log(some vale)
+
+// }
 
 
 //Write your pseduo code first!

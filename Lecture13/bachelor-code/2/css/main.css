@@ -1,3 +1,25 @@
 .hidden{
 	display: none;
 }
+
+
+body {
+	display: flex;
+	width: 100%;
+}
+
+.makeFlex {
+	/* align-items: center; */
+	/* justify-content:center; */
+	margin-top: 7%;
+	margin-left: 5%;
+
+}
+
+img {
+	height: 300px;
+	width: 300px;
+	align-items: flex-end;
+	justify-content: end;
+	/* margin-top: 5%; */
+}

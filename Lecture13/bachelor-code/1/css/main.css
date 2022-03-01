@@ -3,8 +3,27 @@ section {
   display: flex;
   height: 30vh;
   width: 40vw;
+  margin-left: 5%;
 }
 
 section img {
   margin: 2%;
+  /* margin-left: 5; */
 }
+
+h1 {
+  margin-left: 5%;
+  /* font-size: 2em; */
+  margin-top: 3%;
+}
+
+/* label .revail {
+  margin-left: 6%;
+  margin-bottom: 2%;
+  font-size: 1.5em;
+  background-color: gold;
+  border-radius: 40%;
+  padding: 1rem;
+  color: purple;
+  border-color: aqua;
+} */

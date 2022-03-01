@@ -19,30 +19,48 @@ img{
   margin: 0 auto;
 }
 ul{
-  width: 50vw;
+  width: 50%;
   height: 100%;
+  text-align: center;
+  /* margin-top: 5%; */
   /* border: 2px solid black; */
   margin: 0 auto;
+  margin-top: 5%;
   list-style: none;
   padding: 0;
   display: flex;
   /* border-radius: 40%; */
 
 }
-li{
+ul > li {
   width: 50vw;
-  height: 65px;
+  height: 15vh;
+  /* margin-top: 10%; */
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
+
+  font-size: large;
+  font-weight: bold;
+
   border: 1px solid black;
+
   border-radius: 50%;
-  margin-left: 2%;
+  margin-left: 4%;
 
 }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
+#purple {
   background: rgba(241,63,247,1);
+  /* color: white; */
+  /* margin-top: 5%; */
+  /* margin-top: 5%; */
 }
 #green{
   background: rgba(0,253,81,1);

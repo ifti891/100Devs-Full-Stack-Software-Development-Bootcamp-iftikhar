@@ -1,8 +1,13 @@
 // *Variables*
 // Declare a variable, assign it a value, and alert the value
 
-// Create a variable, divide it by 10, and console log the value
+let num = alert("hello");
+h1();
 
+// Create a variable, divide it by 10, and console log the value
+let divide = alert(100/10);
+
+divide();
 // *Functions*
 // Create a function that multiplys 3 numbers and alerts the product
 

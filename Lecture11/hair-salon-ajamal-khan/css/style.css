@@ -116,11 +116,18 @@ nav li{
 
 @media screen and (max-width: 900px) {
   .headerFirstSpan{
-    margin-left: 4rem;
+    margin-left: 5rem;
   }
   nav, .rightSideContentInHeader{
     display: none;
+    /* margin-right: 4em; */
   }
+
+  .shoppingInBagHeader{
+    display: none;
+  }
+  
+
 }
 
 main{
@@ -131,6 +138,15 @@ main{
   color: black;
   text-align: left;
 }
+
+@media screen and (max-width: 900px) {
+  main{
+    width: auto;
+    height: auto;
+   
+  }
+}
+  
 
 .bigMainSection{
   background-image: url(../assets/color\ hair\ shop.gif);

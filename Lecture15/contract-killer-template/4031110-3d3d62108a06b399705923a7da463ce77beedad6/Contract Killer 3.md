@@ -8,9 +8,9 @@
 * * *
 
 
-**Between** [company name]
+**Between** [Felix web-devs]
 
-**And** [customer name].
+**And** [Bilal Dar].
 
 ### Summary:
 

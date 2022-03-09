@@ -1,17 +1,17 @@
 // *Variables*
 // Create a variable and console log the value
 
-let num = 10
+let num = 10;
 
-console.log(num)
+console.log(num);
 
 // Create a variable, add 10 to it, and alert the value
 
-let seconNum = 20
+let secondNum = 20;
 
-seconNum = seconNum + 10
+secondNum = secondNum + 10;
 
-alert(seconNum)
+alert(secondNum);
 
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference

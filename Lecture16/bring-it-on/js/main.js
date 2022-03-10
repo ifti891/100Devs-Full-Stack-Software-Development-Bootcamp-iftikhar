@@ -16,18 +16,19 @@ alert(secondNum);
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
 
-function SubFour(num1, num2, num3, num4){
-  alert(num1 - num2 - num3 - num4)
+function subFour(num1, num2, num3, num4){
+  alert(num1 - num2 - num3 - num4);
 }
 
-subFour(20, 5, 5, 5)
+subFour(20, 5, 5, 5);
+
 // Create a function that divides one number by another and returns the remainder
 
 function divideOneNum(num1, num2){
-  return num1 / num2
+  return num1 / num2;
 }
 
-console.log(10, 2)
+console.log(10, 2);
 
 // *Conditionals*
 // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji

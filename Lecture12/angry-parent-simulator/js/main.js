@@ -71,7 +71,33 @@
 //   sayIt.speak(yellThis)
 // }
 
+// const sayIt = window.speechSynthesis;
+
+// document.querySelector("#yell").addEventListener("click", run)
+
+
+// function run(){
+//   const fName = document.querySelector("#firstName").value
+
+//   const fMiddleName = document.querySelector("#firstMiddle").value
+
+//   const lMiddleName = document.querySelector("#lastMiddle").value
+
+//   const lName = document.querySelector("#lastName").value
+
+//   const yellText = `${fName} ${fMiddleName} ${lMiddleName} ${lName}`
+
+//   document.querySelector("#placeToYell").innerText = yellText
+
+//   let yellThis = new SpeechSynthesisUtterance(yellText)
+
+//   sayIt.speak(yellThis)
+  
+// }
+
 const sayIt = window.speechSynthesis;
+
+// here eventlistener
 
 document.querySelector("#yell").addEventListener("click", run)
 
@@ -83,14 +109,14 @@ function run(){
 
   const lMiddleName = document.querySelector("#lastMiddle").value
 
-  const lName = document.querySelector("#lastName").value
+  const  lName = document.querySelector("#lastName").value
 
   const yellText = `${fName} ${fMiddleName} ${lMiddleName} ${lName}`
-
+  // changed to check if this wway it still works
   document.querySelector("#placeToYell").innerText = yellText
 
   let yellThis = new SpeechSynthesisUtterance(yellText)
 
   sayIt.speak(yellThis)
-  
+
 }

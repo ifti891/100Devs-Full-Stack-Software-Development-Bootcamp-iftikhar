@@ -52,21 +52,45 @@
 // }
 
 
-const bool = window.speechSynthesis;
+// const sayIt = window.speechSynthesis;
+
+// document.querySelector("#yell").addEventListener("click", run)
+
+// function run(){
+//   const fName = document.querySelector("#firstName").value
+//   const fMiddle = document.querySelector("#firstMiddle").value
+//   const lMiddle = document.querySelector("#lastMiddle").value
+//   const lName = document.querySelector("#lastName").value
+
+//   const yellText = `${fName} ${fMiddle} ${lMiddle} ${lName}`
+
+//   document.querySelector("#placeToYell").innerText = yellText
+
+//   let yellThis = new SpeechSynthesisUtterance(yellText)
+
+//   sayIt.speak(yellThis)
+// }
+
+const sayIt = window.speechSynthesis;
 
 document.querySelector("#yell").addEventListener("click", run)
 
+
 function run(){
   const fName = document.querySelector("#firstName").value
-  const fMiddle = document.querySelector("#firstMiddle").value
-  const lMiddle = document.querySelector("#lastMiddle").value
+
+  const fMiddleName = document.querySelector("#firstMiddle").value
+
+  const lMiddleName = document.querySelector("#lastMiddle").value
+
   const lName = document.querySelector("#lastName").value
 
-  const yellText = `${fName} ${fMiddle} ${lMiddle} ${lName}`
+  const yellText = `${fName} ${fMiddleName} ${lMiddleName} ${lName}`
 
   document.querySelector("#placeToYell").innerText = yellText
 
   let yellThis = new SpeechSynthesisUtterance(yellText)
 
-  bool.speak(yellThis)
+  sayIt.speak(yellThis)
+  
 }

@@ -8,7 +8,7 @@
 document.getElementById("purple").onclick = partyPurple
 document.getElementById("green").onclick = partyGreen
 document.getElementById("blue").onclick = partyBlue
-document.getElementById("gold").onclick = party
+document.getElementById("gold").onclick = partyGold
 
 
 
@@ -44,7 +44,7 @@ function partyBlue(){
 }
 
 function partyGold(){
-  const gold = document.querySelector("body").style.backgroun = "gold"
+  const gold = document.querySelector("body").style.background = "gold"
 
   const white = document.querySelector("body").style.color = "white"
 

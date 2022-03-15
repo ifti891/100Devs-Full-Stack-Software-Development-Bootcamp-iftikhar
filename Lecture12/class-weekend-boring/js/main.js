@@ -1,21 +1,69 @@
-document.querySelector('#check').addEventListener('click', check)
+document.querySelector("#check").addEventListener("click", check);
 
 
-function check() {
+function check(){
+  const day = document.querySelector("#day").value.toLowerCase();
 
-  const day = document.querySelector('#day').value
-  var output = ''
+  let output = "";
 
-    if(day === "Wednesday" || day === "Friday"){
-      output = 'CLASS DAY';
-    }else if(day === "Saturday" || day === "Sunday"){
-      output = 'Weekend';
-    }else{
-      output = 'Booring';
-    }
+  if(day === "wednesday" || day === "friday"){
+    output = "CLASS DAY";
+  }else if (day === "saturday" || day === "sunday"){
+    output = "WEEKEND";
+  }else{
+    output = "BOOORRRRING"
+  }
 
-    document.getElementById('placeToSee').innerText = output;
+  document.getElementById("placeToSee").innerText = output;
 }
+
+
+
+
+
+// document.querySelector("#check").addEventListener("click", check)
+
+
+// function check(){
+//   const day = document.querySelector("#day").value.toLowerCase()
+
+//   let output = " "
+
+//   if(day === "wednesday" || day === "friday"){
+//     output = "CLASS DAY";
+//   }else if (day ==="saturday" || day === "sunday"){
+//     output = "WEEKEND";
+//   }else{
+//     output = "booooring";
+//   }
+
+//   document.getElementById("placeToSee").innerText = output;
+// }
+
+
+
+
+
+
+
+// document.querySelector('#check').addEventListener('click', check)
+
+
+// function check() {
+
+//   const day = document.querySelector('#day').value
+//   var output = ''
+
+//     if(day === "Wednesday" || day === "Friday"){
+//       output = 'CLASS DAY';
+//     }else if(day === "Saturday" || day === "Sunday"){
+//       output = 'Weekend';
+//     }else{
+//       output = 'Booring';
+//     }
+
+//     document.getElementById('placeToSee').innerText = output;
+// }
 
 
 // if (day === "Wednesday" || day === "Friday"){

@@ -10,29 +10,49 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-h1, h2{
-  text-align: center;
-}
-img{
-  display: block;
-  height: 300px;
-  margin: 0 auto;
-}
-ul{
-  width: 100px;
-  height: auto;
-  border: 3px solid black;
-  margin: 0 auto;
-  list-style: none;
-  padding: 0;
-}
-li{
-  text-align: center;
-  width: 94px;
-  height: 49px;
-  border: 1px solid black;
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(69, 70, 48), rgb(19, 29, 31));
+  }
+
+  .inputBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    /* margin-top: 5%; */
+    width: 100%;
+    /* height: 100vh; */
+    background: linear-gradient(to right, rgb(69, 70, 48), rgb(19, 29, 31));
+  }
+
+  .calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(90px, auto) repeat(5, 80px);
+    }
+
+    .calculator-grid > button {
+      color: rgb(6, 6, 22);
+      font-size: 1.5em;
+      
+      background-color: rgb(172, 197, 197);
+      margin: 2%;
+      border-radius: 5px;
+      padding: 10% 20%;
+    }

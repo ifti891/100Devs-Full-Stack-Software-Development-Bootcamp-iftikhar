@@ -6,7 +6,7 @@
 		<meta name="description" content="Not so great calculator">
 		<meta name="keywords" content="calculator, bad, numbers">
 
-		<title>Not So Great Calculator</title>
+		<title>Not So Great JS Calculator</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
@@ -14,18 +14,35 @@
 	</head>
 
 	<body>
-		<h1>Not So Great Calculator</h1>
-		<ul>
-			<li id="pumpkin">0</li>
-			<li id="dominosPizza">+3</li>
-			<li id="zebra">+9</li>
-			<li id="cantThinkOfAnything">-2</li>
-			<li id="anotherNumber">+6</li>
-		</ul>
-		<h2>Result: <span id="placeToPutResult"></span></h2>
+		<div id="calculator" class="inputBar">
+			<div id="display">
+				<input type="text" id="display-text" value="0" readonly>
+			</div>
+
+			<div id="buttons" class="calculator-grid">
+				<button id="clear" class="button">C</button>
+				<button id="backspace" class="button">&larr;</button>
+				<button id="divide" class="button">&divide;</button>
+				<button id="multiply" class="button">&times;</button>
+				<button id="seven" class="button">7</button>
+				<button id="eight" class="button">8</button>
+				<button id="nine" class="button">9</button>
+				<button id="subtract" class="button">&minus;</button>
+				<button id="four" class="button">4</button>
+				<button id="five" class="button">5</button>
+				<button id="six" class="button">6</button>
+				<button id="add" class="button">&plus;</button>
+				<button id="one" class="button">1</button>
+				<button id="two" class="button">2</button>
+				<button id="three" class="button">3</button>
+				<button id="equals" class="button">=</button>
+				<button id="zero" class="button">0</button>
+				<button id="decimal" class="button">.</button>
+			</div>
+			<!-- <h2>Result: <span id="placeToPutResult"></span></h2> -->
 
 
-		<script type="text/javascript" src="js/main.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
 	</body>
 
 </html>

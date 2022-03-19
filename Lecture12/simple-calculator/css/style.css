@@ -24,6 +24,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to right, rgb(69, 70, 48), rgb(19, 29, 31));
+  /* background-size: cover; */
   }
 
   .inputBar{

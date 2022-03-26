@@ -5,7 +5,8 @@
 //the secret of Mental math book
 let arr = [10, 20, 35, 22, 10]
 
-let sum = arr.reduce( (acc, c) => acc + c);
+// .reduce reduces the array to a single value into one thing...
+let sum = arr.reduce( (acc, c) => acc + c, 0);
 
 alert(sum);
 

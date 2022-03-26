@@ -2,6 +2,15 @@
 
 //Create and array of numbers. Sum all of the numbers. Alert the sum.
 
+//the secret of Mental math book
+let arr = [10, 20, 35, 22, 10]
+
+let sum = arr.reduce( (acc, c) => acc + c);
+
+alert(sum);
+
+
+
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
 

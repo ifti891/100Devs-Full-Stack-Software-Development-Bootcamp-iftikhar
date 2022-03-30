@@ -12,7 +12,7 @@ dog.bark = fucntion(){
 }
 
 dog.jump = fucntion(){
-  console.log()
+  console.log("jump jump jump")
 }
 
 

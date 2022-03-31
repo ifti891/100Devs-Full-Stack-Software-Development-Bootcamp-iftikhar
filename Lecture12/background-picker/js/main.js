@@ -5,16 +5,22 @@
   // const colorGold = window.speechSynthesis;
 
 
-document.getElementById("purple").onclick = partyPurple
-document.getElementById("green").onclick = partyGreen
-document.getElementById("blue").onclick = partyBlue
-document.getElementById("gold").onclick = partyGold
+// document.getElementById("purple").onclick = partyPurple
+// document.getElementById("green").onclick = partyGreen
+// document.getElementById("blue").onclick = partyBlue
+// document.getElementById("gold").onclick = partyGold
 
 
 const colorPurple = window.speechSynthesis;
 const colorGreen = window.speechSynthesis;
 const colorBlue = window.speechSynthesis;
 const colorGOld = window.speechSynthesis;
+
+
+document.getElementById("purple").onClick = partyPurple
+document.getElementById("green").onclick = partyGreen
+document.getElementById("blue").onClick = partyBlue
+document.getElementById("gold").onclick = partyGold
 
 
 function partyPurple (){

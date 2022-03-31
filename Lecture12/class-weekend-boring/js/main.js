@@ -1,23 +1,40 @@
-document.querySelector("#check").addEventListener("click", check);
+// document.querySelector("#check").addEventListener("click", check);
 
+
+// function check(){
+//   const day = document.querySelector("#day").value.toLowerCase();
+
+//   let output = "";
+
+//   if(day === "wednesday" || day === "friday"){
+//     output = "CLASS DAY";
+//   }else if (day === "saturday" || day === "sunday"){
+//     output = "WEEKEND";
+//   }else{
+//     output = "BOOORRRRING"
+//   }
+
+//   document.getElementById("placeToSee").innerText = output;
+// }
+
+document.querySelector("#check").addEventListener("click", check);
 
 function check(){
   const day = document.querySelector("#day").value.toLowerCase();
 
-  let output = "";
+  let output = " ";
 
   if(day === "wednesday" || day === "friday"){
     output = "CLASS DAY";
+
   }else if (day === "saturday" || day === "sunday"){
     output = "WEEKEND";
   }else{
-    output = "BOOORRRRING"
+    output = "BOOOOOORING";
+
+    document.getElementById("placeToSee").innerText = output;
   }
-
-  document.getElementById("placeToSee").innerText = output;
 }
-
-
 
 
 

@@ -13,20 +13,39 @@
 //   document.querySelector('#placeToYell').innerText = `${fName} ${fMidName} ${lMidName} ${lName}`
 // }
 
+// const synth = window.speechSynthesis;
+// document.querySelector('#yell').addEventListener('click', run)
+
+// function run() {
+//   const fName = document.querySelector('#firstName').value
+//   const fMidName = document.querySelector('#firstMiddle').value
+//   const lMidName = document.querySelector('#lastMiddle').value
+//   const lName = document.querySelector('#lastName').value
+
+//   const yellText =  `${fName} ${fMidName} ${lMidName} ${lName}`
+
+//   document.querySelector('#placeToYell').innerText = yellText
+
+//   let yellThis = new SpeechSynthesisUtterance(yellText);
+
+//   synth.speak(yellThis);
+// }
+
+
 const synth = window.speechSynthesis;
-document.querySelector('#yell').addEventListener('click', run)
+document.querySelector("#yell").addEventListener("click", run)
 
-function run() {
-  const fName = document.querySelector('#firstName').value
-  const fMidName = document.querySelector('#firstMiddle').value
-  const lMidName = document.querySelector('#lastMiddle').value
-  const lName = document.querySelector('#lastName').value
+function run(){
+  const fName = document.querySelector("#firstName").value
+  const fMidName = document.querySelector("#firstMiddle").value
+  const lMidNmae = document.querySelector("#lastMiddle").value
+  const lName = document.querySelector("#lastName").value
 
-  const yellText =  `${fName} ${fMidName} ${lMidName} ${lName}`
+  const yellText = `${fName} ${fMidName} ${lMidNmae} ${lName}`
 
-  document.querySelector('#placeToYell').innerText = yellText
+  document.querySelector("#placeToYell").innerText = yellText
 
   let yellThis = new SpeechSynthesisUtterance(yellText);
 
-  synth.speak(yellThis);
+  synth.speak(yellThis)
 }

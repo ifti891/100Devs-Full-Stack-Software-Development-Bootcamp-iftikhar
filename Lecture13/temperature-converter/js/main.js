@@ -1,7 +1,7 @@
 
-document.querySelector('#yell').addEventListener('click', run)
+document.querySelector('#yell').addEventListener('click', convert)
 
-function run(){
+function convert(){
   // console.log("Hello friends")
   let temp = document.querySelector("#cel").value
 
@@ -13,7 +13,7 @@ function run(){
 
 //  show tempreture
 
-  temp = temp * 5/9 + 32
+  temp = temp * 9/5 + 32
 
   document.querySelector('#placeToYell').innerText = temp
 }

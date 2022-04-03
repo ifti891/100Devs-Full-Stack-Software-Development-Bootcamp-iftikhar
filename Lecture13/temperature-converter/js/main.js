@@ -1,25 +1,35 @@
 
-document.querySelector('#yell').addEventListener('click', convert)
+// document.querySelector('#yell').addEventListener('click', convert)
 
-function convert(){
-  // console.log("Hello friends")
+// function convert(){
+//   // console.log("Hello friends")
+//   let temp = document.querySelector("#cel").value
+
+//   // need temperature
+
+// // get vaue of input
+
+// // covert the value
+
+// //  show tempreture
+
+//   temp = temp * 9/5 + 32
+
+//   document.querySelector('#placeToYell').innerText = temp
+// }
+
+
+document.querySelector("#yell").addEventListener("click", converter)
+
+function converter(){
+  //input a value 
   let temp = document.querySelector("#cel").value
 
-  // need temperature
+  // convert value to fahrenheit
+  temp = temp * 9/5 + 32;
 
-// get vaue of input
-
-// covert the value
-
-//  show tempreture
-
-  temp = temp * 9/5 + 32
-
-  document.querySelector('#placeToYell').innerText = temp
+  document.querySelector("#placeToYell").innerText = temp;
 }
-
-
-
 
 
 

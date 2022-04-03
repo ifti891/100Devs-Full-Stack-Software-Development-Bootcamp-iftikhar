@@ -5,13 +5,15 @@ document.querySelector('#check').addEventListener('click', check)
 function check() {
 
   const day = document.querySelector('#day').value.toLowerCase()
-
-  if(day === "tuesday" || day === "thursday"){
-    console.log("YOU HAVE CLASS")
+  let output = " ";
+  if(day === "wednesday" || day === "friday"){
+    output = "CLASS DAY"
   }else if( day === "saturday" || day === "sunday"){
-    console.log("Its The Weekend")
+    output = "WEEKEND";
   }else{
-    console.log("BORING")
+    output = "BORING";
   }
+
+  document.querySelector("#placeToSee").innerText = output
 
 }

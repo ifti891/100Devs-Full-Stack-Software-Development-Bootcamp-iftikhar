@@ -19,3 +19,11 @@ console.log(multThree(2, 2, 2));
 
 
 //create a function that divides two numbers and returns the ???
+
+function divideTwoNumbers(a, b){
+  let result = a / b;
+
+  return result
+}
+
+console.log(divideTwoNumbers(60, 2));

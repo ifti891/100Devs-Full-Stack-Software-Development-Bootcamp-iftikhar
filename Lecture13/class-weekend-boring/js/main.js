@@ -20,6 +20,7 @@
 
 
 document.querySelector("#check").addEventListener("click", run)
+
 function run(){
   const day = document.querySelector("#day").value.toLowerCase()
 

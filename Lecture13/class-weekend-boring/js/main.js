@@ -11,7 +11,7 @@ function check() {
   }else if( day === "saturday" || day === "sunday"){
     output = "WEEKEND";
   }else{
-    output = "BORING";
+    output = "BOORING";
   }
 
   document.querySelector("#placeToSee").innerText = output

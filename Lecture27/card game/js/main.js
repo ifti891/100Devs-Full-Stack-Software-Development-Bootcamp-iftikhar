@@ -1,5 +1,4 @@
-let deckId = " "
-
+let deckId = ""
 
 fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
       .then(res => res.json()) // parse response as JSON
@@ -15,12 +14,25 @@ fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
 
 document.querySelector('button').addEventListener('click', drawTwo)
 
-function drawTwo(){
-  
-  
-  const url = `https://deckofcardsapi.com/api/deck/w0ix97scd10p/draw/?count=2`
 
-  
+
+function drawTwo(){
+  const url = `https://www.deckofcardsapi.com/api/deck/${deckId}/draw/?count=2`
+
+  fetch(url)
+      .then(res => res.json()) // parse response as JSON
+      .then(data => {
+        console.log(data)
+        document.querySelector('#player1').src = data.cards[0].image 
+        document.querySelector('#player2').src = data.cards[1].image
+        
+      })
+      .catch(err => {
+          console.log(`error ${err}`)
+      });
 }
+
+
+
 
 // https://deckofcardsapi.com/api

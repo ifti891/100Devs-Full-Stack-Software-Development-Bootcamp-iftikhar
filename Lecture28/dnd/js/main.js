@@ -21,6 +21,7 @@ function getFetch() {
             li.textContent = obj.name
             // append thr li to the ui
             document.querySelector("ul").appendChild(li)
+            // 
 
             });
         })

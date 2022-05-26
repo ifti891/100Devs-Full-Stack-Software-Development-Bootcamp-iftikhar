@@ -7,12 +7,3 @@ http.createServer((req, res) => {
     res.end()
   })
 }).listen(8000)
-
-
-// Do: Start prepping THE BANK
-
-// Do: Complete Your Professional Links
-
-// Do: Make node-backend-simple-json more readable
-
-// Do: Make a coinflip game where the randomization happens server side

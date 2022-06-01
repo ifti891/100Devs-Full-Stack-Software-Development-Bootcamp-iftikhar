@@ -11,8 +11,10 @@
 /* LAYOUT
 /*******************************************/
 img{
+  padding-top: 5%;
   display: block;
   margin: 0 auto;
+  width: 600px;
 }
 
 

@@ -49,3 +49,6 @@ function mathOut(n1, n2, n3, n4 ){
     alert(n1*n2*n3) % n4
   }
 }
+
+mathOut(5, 7, 6, 3)
+

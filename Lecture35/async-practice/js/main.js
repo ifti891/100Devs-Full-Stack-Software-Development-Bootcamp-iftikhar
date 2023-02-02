@@ -1,4 +1,4 @@
-//Code 01
+// Code 01
 // function houseOne(){
 //     console.log('Paper delivered to house 1')
 // }
@@ -25,6 +25,28 @@
 // houseOne()
 // houseTwo()
 // houseThree()
+
+
+// Code 3-1
+
+// function houseOne(){
+//   console.log("Paper delivered to house 1")
+// }
+
+// function houseTwo(callback) {
+//   setTimeout(() => {
+//     console.log("Paper delivered to house 2")
+//     callback()
+//   }, 3000)
+//   // console.log("paper delivered to house 2")
+// }
+
+// function houseThree(){
+//   console.log("Paper delivered to house 3")
+// }
+
+// // houseOne()
+// houseTwo(houseThree)
 
 //Code 03
 
@@ -67,7 +89,7 @@
 // const promise = new Promise((resolve, reject) => {
 //   const error = false
 //   if (!error) {
-//     resolve('Promise has been fullfilled')
+//     resolve('Promise has been fullf illed')
 //   } else {
 //     reject('Error: Operation has failed')
 //   }
@@ -108,56 +130,56 @@
 //   .catch(err => console.log(err))
 
 //Code 07
-// function houseOne(){
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             resolve('Paper delivered to house 1')
-//         }, 1000)
-//     })
-// }
-// function houseTwo(){
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             resolve('Paper delivered to house 2')
-//         }, 5000)
-//     })
-// }
-// function houseThree(){
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             resolve('Paper delivered to house 3')
-//         }, 2000)
-//     })
-// }
+function houseOne(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('Paper delivered to house 1')
+        }, 1000)
+    })
+}
+function houseTwo(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('Paper delivered to house 2')
+        }, 5000)
+    })
+}
+function houseThree(){
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('Paper delivered to house 3')
+        }, 2000)
+    })
+}
 
-// async function getPaid(){
-//     const houseOneWait = await houseOne()
-//     const houseTwoWait = await houseTwo()
-//     const houseThreeWait = await houseThree()
-//     console.log(houseOneWait)
-//     console.log(houseTwoWait)
-//     console.log(houseThreeWait)
-// }
+async function getPaid(){
+    const houseOneWait = await houseOne()
+    const houseTwoWait = await houseTwo()
+    const houseThreeWait = await houseThree()
+    console.log(houseOneWait)
+    console.log(houseTwoWait)
+    console.log(houseThreeWait)
+}
 
 // getPaid()
 
 // Code 08
-async function getACuteDogPhoto() {
-  const res = await fetch('https://dog.ceo/api/breeds/image/random')
-  const data = await res.json()
-  console.log(data)
-}
-getACuteDogPhoto()
+// async function getACuteDogPhoto() {
+//   const res = await fetch('https://dog.ceo/api/breeds/image/random')
+//   const data = await res.json()
+//   console.log(data)
+// }
+// getACuteDogPhoto()
 
 // add try catch error block in the above 
 
-fetch("https://dog.ceo/api/breeds/image/random")
-    .then(res => res.json()) // parse response as JSON
-    .then(data => {
-      console.log(data)
-    })
-    .catch(err => {
-        console.log(`error ${err}`)
-    });
+// fetch("https://dog.ceo/api/breeds/image/random")
+//     .then(res => res.json()) // parse response as JSON
+//     .then(data => {
+//       console.log(data)
+//     })
+//     .catch(err => {
+//         console.log(`error ${err}`)
+//     });
 
 
